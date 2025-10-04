@@ -6,9 +6,10 @@ import App from './App';
 import { BrowserRouter } from "react-router";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const basename = process.env.REACT_APP_BASENAME || "/";
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/SnapBuy">
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </React.StrictMode>

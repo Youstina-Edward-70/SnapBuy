@@ -2,6 +2,7 @@
   "name": "e-commerece",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://youstina-edward-70.github.io/SnapBuy",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -23,7 +24,6 @@
     "sweetalert2": "^11.23.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://youstina-edward-70.github.io/SnapBuy",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
