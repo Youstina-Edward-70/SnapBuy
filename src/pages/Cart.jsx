@@ -3,7 +3,7 @@ import { CartContext } from '../components/CartProvider';
 import { useDarkMode } from "../components/DarkModeContext";
 import CartItem from '../components/CartItem';
 import TotalPrice from '../components/TotalPrice';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import Swal from 'sweetalert2';
 

@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import { FaFilter } from "react-icons/fa";
 import axios from 'axios';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const DrawerBar = ({ onCategorySelect }) => {
     const [open, setOpen] = useState(false);

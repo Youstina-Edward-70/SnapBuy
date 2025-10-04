@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 import Reviews from '../components/Reviews';
 import ProductInfo from '../components/ProductInfo';
 import Skeleton from '@mui/material/Skeleton';

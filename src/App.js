@@ -7,7 +7,7 @@ import ProductDetails from './pages/ProductDetails';
 import ThankYou from './pages/ThankYou';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import { Outlet, Route, Routes } from 'react-router';
+import { Outlet, Route, Routes } from 'react-router-dom';
 
 import { CartProvider } from "./components/CartProvider";
 import { DarkModeProvider } from "./components/DarkModeContext";
