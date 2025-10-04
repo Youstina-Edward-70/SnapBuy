@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SnapBuy/static/css/main.fe032c30.css",
-    "main.js": "/SnapBuy/static/js/main.5c13fa46.js",
+    "main.js": "/SnapBuy/static/js/main.4f5e447d.js",
     "index.html": "/SnapBuy/index.html",
     "main.fe032c30.css.map": "/SnapBuy/static/css/main.fe032c30.css.map",
-    "main.5c13fa46.js.map": "/SnapBuy/static/js/main.5c13fa46.js.map"
+    "main.4f5e447d.js.map": "/SnapBuy/static/js/main.4f5e447d.js.map"
   },
   "entrypoints": [
     "static/css/main.fe032c30.css",
-    "static/js/main.5c13fa46.js"
+    "static/js/main.4f5e447d.js"
   ]
 }
