@@ -26,7 +26,7 @@ function ProductsPage() {
             setLoading(true);
             try {
                 const url = currentCategory
-                    ? `https://dummyjson.com/products/category/${selectedCategory}`
+                    ? `https://dummyjson.com/products/category/${currentCategory}`
                     : searchQuery
                         ? `https://dummyjson.com/products/search?q=${searchQuery}`
                         : 'https://dummyjson.com/products?limit=48';
@@ -57,8 +57,8 @@ function ProductsPage() {
                 <DrawerBar onCategorySelect={setSelectedCategory} />
 
                 <Typography variant="h5" sx={{ mt: 3, mb: 2 }}>
-                    {selectedCategory
-                        ? `Products in "${selectedCategory}" category`
+                    {currentCategory
+                        ? `Products in "${currentCategory}" category`
                         : searchQuery
                             ? `Search results for "${searchQuery}"`
                             : "All Products"}

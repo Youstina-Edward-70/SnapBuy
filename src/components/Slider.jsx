@@ -61,7 +61,7 @@ const Slider = () => {
                     aria-label="My Auto Scroll Splide"
                 >
                     {products.map((product, index) => (
-                        <SplideSlide key={index} className="flex-shrink-0 w-[200px]">
+                        <SplideSlide key={index} className="flex-shrink-0 w-[200px] md:w-[300px]">
                             <Link to={`/products/${product.id}`} >
                                 <img
                                     src={product.thumbnail}
