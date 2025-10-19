@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import { FaMoon, FaShoppingCart, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import { CartContext } from "./CartProvider";
-import { useDarkMode } from "./DarkModeContext";
+import { CartContext } from "../context/CartProvider";
+import { useDarkMode } from "../context/DarkModeContext";
 import SearchBox from "./SearchBox";
 
 function Navbar() {

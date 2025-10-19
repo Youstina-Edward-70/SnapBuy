@@ -27,7 +27,7 @@ const faqs = [
   },
 ];
 
-export default function FAQAccordion() {
+const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
@@ -75,3 +75,5 @@ export default function FAQAccordion() {
     </div>
   );
 }
+
+export default FAQ;

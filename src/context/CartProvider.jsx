@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { useDarkMode } from "../components/DarkModeContext";
+import { useDarkMode } from "./DarkModeContext";
 import { Alert, Snackbar } from "@mui/material";
 import Swal from "sweetalert2";
 

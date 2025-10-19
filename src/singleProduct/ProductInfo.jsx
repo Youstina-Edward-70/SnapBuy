@@ -1,5 +1,5 @@
 import React from 'react'
-import CartButton from './CartButton'
+import CartButton from '../cart/CartButton'
 
 const ProductInfo = ({ product }) => {
     return (

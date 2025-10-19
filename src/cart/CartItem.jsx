@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { FaTrashCan } from "react-icons/fa6";
-import { CartContext } from './CartProvider';
+import { CartContext } from '../context/CartProvider';
 
 const CartItem = () => {
     const { cartProducts, updateQuantity, toggleCart } = useContext(CartContext);

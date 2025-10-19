@@ -1,8 +1,8 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import Slider from '../components/Slider'
-import WhyUs from '../components/WhyUs'
-import FAQ from '../components/FAQ'
+import Hero from './Hero'
+import Slider from './Slider'
+import WhyUs from './WhyUs'
+import FAQ from './FAQ'
 
 const Home = () => {
     return (

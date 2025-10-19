@@ -1,18 +1,18 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Home from './home/Home';
 import Footer from './components/Footer';
-import Products from './pages/Products';
-import ProductDetails from './pages/ProductDetails';
-import ThankYou from './pages/ThankYou';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import Products from './products/Products';
+import ProductDetails from './singleProduct/ProductDetails';
+import ThankYou from './components/ThankYou';
+import About from './components/About';
+import Contact from './components/Contact';
 import { Outlet, Route, Routes } from 'react-router-dom';
 
-import { CartProvider } from "./components/CartProvider";
-import { DarkModeProvider } from "./components/DarkModeContext";
-import Cart from './pages/Cart';
-import Checkout from './pages/Checkout';
+import { CartProvider } from "./context/CartProvider";
+import { DarkModeProvider } from "./context/DarkModeContext";
+import Cart from './cart/Cart';
+import Checkout from './cart/Checkout';
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import { CartContext } from '../components/CartProvider';
-import { useDarkMode } from "../components/DarkModeContext";
-import CartItem from '../components/CartItem';
-import TotalPrice from '../components/TotalPrice';
+import { CartContext } from '../context/CartProvider';
+import { useDarkMode } from "../context/DarkModeContext";
+import CartItem from './CartItem';
+import TotalPrice from './TotalPrice';
 import { Link } from 'react-router-dom';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import Swal from 'sweetalert2';
@@ -83,7 +83,7 @@ const Cart = () => {
                         <p className="text-center text-gray-600 dark:text-gray-400 transition-colors">
                             Your cart is currently empty.
                         </p>
-                        <Link to="/products" className="mt-4 inline-block text-blue-600 dark:text-blue-400 transition duration-500 hover:underline flex gap-2 item-center">
+                        <Link to="/products" className="mt-4 text-blue-600 dark:text-blue-400 transition duration-500 hover:underline flex gap-2 item-center">
                             <ArrowCircleLeftIcon /> Browse Products
                         </Link>
                     </div>

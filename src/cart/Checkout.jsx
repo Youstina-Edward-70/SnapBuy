@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { CartContext } from "../components/CartProvider";
-import FormValidation from "../components/FormValidation";
+import { CartContext } from "../context/CartProvider";
+import FormValidation from "./FormValidation";
 
 const Checkout = () => {
     const { cartProducts } = useContext(CartContext);

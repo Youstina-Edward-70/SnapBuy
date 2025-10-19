@@ -3,7 +3,7 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Radio from '@mui/material/Radio';
 import { useNavigate } from "react-router-dom";
-import { CartContext } from './CartProvider';
+import { CartContext } from '../context/CartProvider';
 import Swal from "sweetalert2";
 
 const FormValidation = () => {
