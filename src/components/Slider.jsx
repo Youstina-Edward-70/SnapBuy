@@ -66,7 +66,7 @@ const Slider = () => {
                                 <img
                                     src={product.thumbnail}
                                     alt={product.title}
-                                    className="w-full h-auto object-cover rounded-lg shadow-lg"
+                                    className="w-full h-auto object-cover rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-600 transition duration-500"
                                 />
                             </Link>
                         </SplideSlide>
@@ -76,7 +76,7 @@ const Slider = () => {
             <div className="flex justify-center">
                 <Link
                     to="/products"
-                    className="mt-6 px-6 py-2 rounded-lg transition 
+                    className="mt-8 px-6 py-2 rounded-lg transition 
                     bg-blue-500 text-white hover:bg-blue-700 
                     dark:bg-gray-600 dark:hover:bg-gray-500"
                 >
