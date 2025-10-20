@@ -38,7 +38,7 @@ const DrawerBar = ({ onCategorySelect }) => {
 
     return (
         <>
-            <div className="flex justify-end mb-4">{/*-----------------------------------------------------------------------------------*/}
+            <div className="flex justify-end mb-4">
                 <Button
                     variant="contained"
                     color="primary"
