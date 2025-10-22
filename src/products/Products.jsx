@@ -24,6 +24,9 @@ function ProductsPage() {
     useEffect(() => {
         const fetchProducts = async () => {
             setLoading(true);
+
+            if (searchQuery) setSelectedCategory("");
+            
             try {
                 const url = currentCategory
                     ? `https://dummyjson.com/products/category/${currentCategory}`
