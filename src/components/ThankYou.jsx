@@ -10,10 +10,10 @@ const ThankYou = () => {
 
         if (setCartProducts)
             setCartProducts([]);
-    }, []);
+    }, [setCartProducts]);
 
     return (
-        <div className="min-h-[55vh] flex flex-col items-center justify-center text-center p-6 bg-gray-50 dark:bg-gray-900 transition duration-500">
+        <div className="min-h-[80vh] flex flex-col items-center justify-center text-center p-6 bg-gray-50 dark:bg-gray-900 transition duration-500">
             <h1 className="text-3xl font-bold text-green-600 mb-4">Thank You!</h1>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 max-w-md transition duration-500">
                 Your order has been placed successfully.
